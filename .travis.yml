@@ -9,5 +9,5 @@ before_install:
   - docker -v
 
 script:
-  - cd example
+  - cd examples
   - docker-compose up -d
